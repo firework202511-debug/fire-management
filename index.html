@@ -202,19 +202,19 @@
         </div>
         
         <div class="form-group">
-          <label>專案名稱 *</label>
+          <label>工程名稱 *</label>
           <select id="preProject" required>
             <option value="">請先選擇公司</option>
           </select>
         </div>
         
         <div class="form-group">
-          <label>其他專案（若上方選「其他」）</label>
+          <label>其他工程名稱（若上方選「其他」）</label>
           <input type="text" id="preInputProject">
         </div>
         
         <div class="form-group">
-          <label>施工單位 *</label>
+          <label>主辦單位 *</label>
           <input type="text" id="preDepartment" required>
         </div>
         
@@ -239,12 +239,12 @@
         
         <div class="form-group">
           <label>詳細位置</label>
-          <input type="text" id="preLocation">
+          <input type="text" id="preLocation"required>
         </div>
         
         <div class="form-group">
           <label>是否為限制區域？</label>
-          <select id="preRestricted">
+          <select id="preRestricted"required>
           <option value="">請選擇</option>
           <option value="是">是</option>
           <option value="否">否</option>
@@ -262,7 +262,7 @@
           <label>照片 1：氣體偵測器照片</label>
           <div class="photo-upload" onclick="document.getElementById('prePhoto1').click()">
             <div>📷 點擊上傳照片</div>
-            <input type="file" id="prePhoto1" accept="image/*">
+            <input type="file" id="prePhoto1" accept="image/*"required>
             <div class="photo-label">建議大小 < 5MB</div>
           </div>
           <div id="prePhoto1Status" class="status"></div>
@@ -272,7 +272,7 @@
           <label>照片 2：防護設備照片</label>
           <div class="photo-upload" onclick="document.getElementById('prePhoto2').click()">
             <div>📷 點擊上傳照片</div>
-            <input type="file" id="prePhoto2" accept="image/*">
+            <input type="file" id="prePhoto2" accept="image/*"required>
             <div class="photo-label">建議大小 < 5MB</div>
           </div>
           <div id="prePhoto2Status" class="status"></div>
@@ -295,7 +295,7 @@
         </div>
         
         <div class="form-group">
-          <label>專案名稱 *</label>
+          <label>工程名稱 *</label>
           <select id="duringProject" required>
             <option value="">請先選擇公司</option>
           </select>
@@ -303,7 +303,7 @@
         
        <div class="form-group">
           <label>是否判斷【作業環境經檢視無雜草、殘油等潛在風險，無須鋪設防火毯】？</label>
-          <select id="preRestricted">
+          <select id="preRestricted"required>
           <option value="">請選擇</option>
           <option value="是">是</option>
           <option value="否">否</option>
@@ -315,7 +315,7 @@
           <label>照片 1：動火許可證</label>
           <div class="photo-upload" onclick="document.getElementById('duringPhoto1').click()">
             <div>📷 點擊上傳照片</div>
-            <input type="file" id="duringPhoto1" accept="image/*">
+            <input type="file" id="duringPhoto1" accept="image/*"required>
             <div class="photo-label">建議大小 < 5MB</div>
           </div>
           <div id="duringPhoto1Status" class="status"></div>
@@ -325,7 +325,7 @@
           <label>照片 2：現場實際防護作業狀況</label>
           <div class="photo-upload" onclick="document.getElementById('duringPhoto2').click()">
             <div>📷 點擊上傳照片</div>
-            <input type="file" id="duringPhoto2" accept="image/*">
+            <input type="file" id="duringPhoto2" accept="image/*"required>
             <div class="photo-label">建議大小 < 5MB</div>
           </div>
           <div id="duringPhoto2Status" class="status"></div>
@@ -348,19 +348,19 @@
         </div>
         
         <div class="form-group">
-          <label>專案名稱 *</label>
+          <label>工程名稱 *</label>
           <select id="afterProject" required>
             <option value="">請先選擇公司</option>
           </select>
         </div>
         
         <div class="form-group">
-          <label>完成時間 *</label>
+          <label>作業結束時間 *</label>
           <input type="datetime-local" id="qTime" required>
         </div>
         
         <div class="form-group">
-          <label>清理確認 *</label>
+          <label>是否確定【已完成環境清理無殘留火星】 *</label>
           <select id="qYesNo" required>
             <option value="">請選擇</option>
             <option value="是">是</option>
@@ -372,7 +372,7 @@
           <label>照片 1：動火作業自主檢查表</label>
           <div class="photo-upload" onclick="document.getElementById('afterPhoto1').click()">
             <div>📷 點擊上傳照片</div>
-            <input type="file" id="afterPhoto1" accept="image/*">
+            <input type="file" id="afterPhoto1" accept="image/*"required>
             <div class="photo-label">建議大小 < 5MB</div>
           </div>
           <div id="afterPhoto1Status" class="status"></div>
@@ -412,4 +412,5 @@
 </body>
 
 </html>
+
 
