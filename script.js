@@ -8,7 +8,7 @@ const CONFIG = {
   MAX_CONCURRENT_UPLOADS: 5,
   COMPRESSION_TIMEOUT: 8000,
   // ⚠️ 重要：改成你的 Worker 網址
-  API_ENDPOINT: 'https://fire-management-api.firework202511.workers.dev/'
+  API_ENDPOINT: 'https://fire-management-api.firework202511.workers.dev'
 };
 
 // 表單配置
@@ -404,3 +404,4 @@ if (document.readyState === 'loading') {
   initApp();
 
 }
+
