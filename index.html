@@ -243,9 +243,13 @@
         </div>
         
         <div class="form-group">
-          <label>管制區域</label>
-          <input type="text" id="preRestricted">
-        </div>
+          <label>是否為限制區域？</label>
+          <select id="preRestricted">
+          <option value="">請選擇</option>
+          <option value="是">是</option>
+          <option value="否">否</option>
+          </select>
+       </div>
         
         <div class="form-group">
           <label>動火項目 *</label>
@@ -297,10 +301,15 @@
           </select>
         </div>
         
-        <div class="form-group">
-          <label>檢查項目 *</label>
-          <textarea id="q1" rows="4" required placeholder="請填寫檢查項目與結果"></textarea>
-        </div>
+       <div class="form-group">
+          <label>是否判斷【作業環境經檢視無雜草、殘油等潛在風險，無須鋪設防火毯】？</label>
+          <select id="preRestricted">
+          <option value="">請選擇</option>
+          <option value="是">是</option>
+          <option value="否">否</option>
+          </select>
+       </div>
+        
         
         <div class="form-group">
           <label>照片 1</label>
@@ -401,4 +410,5 @@
   <!-- 這裡要放入 Cloudflare 版本的 script.js -->
   <script src="script.js"></script>
 </body>
+
 </html>
