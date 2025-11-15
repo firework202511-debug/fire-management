@@ -1,4 +1,4 @@
- ================== 全域設定 ==================
+ //================== 全域設定 ==================
 const CONFIG = {
   MAX_WIDTH: 1024,
   JPEG_QUALITY: 0.75,
@@ -402,4 +402,5 @@ if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', initApp);
 } else {
   initApp();
+
 }
