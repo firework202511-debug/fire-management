@@ -28,6 +28,7 @@ const FORM_CONFIGS = {
       project: getFieldValue('preProject'),
       inputProject: getFieldValue('preInputProject'),
       department: getFieldValue('preDepartment'),
+      Name:getFieldValue('preName'),
       startTime: getFieldValue('preStartTime'),
       endTime: getFieldValue('preEndTime'),
       area: getFieldValue('preArea'),
@@ -404,4 +405,5 @@ if (document.readyState === 'loading') {
   initApp();
 
 }
+
 
